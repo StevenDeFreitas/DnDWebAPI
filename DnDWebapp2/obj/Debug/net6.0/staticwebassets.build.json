@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "1/iarlbCuPccBVC6EtgJNT6f8DfHylLHl5UXyOtcGLI=",
+  "Source": "DnDWebapp2",
+  "BasePath": "_content/DnDWebapp2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DnDWebapp2\\wwwroot",
+      "Source": "DnDWebapp2",
+      "ContentRoot": "S:\\Repo\\DnDWebapp2\\DnDWebapp2\\wwwroot\\",
+      "BasePath": "_content/DnDWebapp2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "S:\\Repo\\DnDWebapp2\\DnDWebapp2\\wwwroot\\css\\site.css",
+      "SourceId": "DnDWebapp2",
+      "SourceType": "Discovered",
+      "ContentRoot": "S:\\Repo\\DnDWebapp2\\DnDWebapp2\\wwwroot\\",
+      "BasePath": "_content/DnDWebapp2",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "S:\\Repo\\DnDWebapp2\\DnDWebapp2\\wwwroot\\index.html",
+      "SourceId": "DnDWebapp2",
+      "SourceType": "Discovered",
+      "ContentRoot": "S:\\Repo\\DnDWebapp2\\DnDWebapp2\\wwwroot\\",
+      "BasePath": "_content/DnDWebapp2",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "S:\\Repo\\DnDWebapp2\\DnDWebapp2\\wwwroot\\js\\site.js",
+      "SourceId": "DnDWebapp2",
+      "SourceType": "Discovered",
+      "ContentRoot": "S:\\Repo\\DnDWebapp2\\DnDWebapp2\\wwwroot\\",
+      "BasePath": "_content/DnDWebapp2",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ]
+}
