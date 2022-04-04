@@ -1,0 +1,25 @@
+resources:
+    pipelines:
+        - pipeline: DnDWebApi-CI
+          source: DnDWebApi-CI
+          trigger: true
+trigger: none
+stages:
+    - stage: deploy
+      displayName: deploying API
+      jobs:
+          - deployment: 'deploy'
+            displayName: 'deploying API'
+            pool: Default
+            environment: 'dev'
+            strategy: 
+                runOnce:
+                    deploy:
+                        steps:
+                        
+                        - task: AzureRmWebAppDeployment@4
+                          inputs:
+                           azureSubscription: "$(serviceConnection)"
+                           appType: webApp
+                           WebAppName: "DndWebApp-1587456"
+                           
