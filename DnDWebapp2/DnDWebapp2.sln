@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnDWebapp2", "DnDWebapp2\DnDWebapp2.csproj", "{E9971517-3862-4F0E-B318-D8CB4E4ED3BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnDWebapp2", "DnDWebapp2.csproj", "{E9971517-3862-4F0E-B318-D8CB4E4ED3BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
