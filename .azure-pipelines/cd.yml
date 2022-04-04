@@ -20,7 +20,7 @@ stages:
                         - task: AzureRmWebAppDeployment@4
                           inputs:
                            azureSubscription: "$(serviceConnection)"
-                           appType: webApp
+                           appType: webAppLinux
                            WebAppName: "DndWebApp-1587456"
-                           Package: "$(Pipeline.Workspace)/DnDWebApi-CI/api/$(resources.pipeline.DnDWebApi-CI.runID).zip"
+                           packageForLinux: "$(Pipeline.Workspace)/DnDWebApi-CI/api/$(resources.pipeline.DnDWebApi-CI.runID).zip"
                            
