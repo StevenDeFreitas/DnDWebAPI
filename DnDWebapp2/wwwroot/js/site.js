@@ -1,4 +1,4 @@
-﻿const baseURI = "https://localhost:7138"
+﻿const baseURI = ""
 const diceEndpoint = "/api/dice/roll"
 
 window.onload = function onload() {
