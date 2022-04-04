@@ -11,7 +11,7 @@ function rollD20() {//rolls 1 d20 for attack roll, bab added later
     //const attackRoll = await fetch(`${baseURI}${diceEndpoint}?numDice=1&numSides=20`)
     return fetch(`${baseURI}${diceEndpoint}?numDice=1&numSides=20`)
         .then(response => response.json())
-        .then(data => data);
+        .then(data => alert(data));
 }
 
 function calculate() {
