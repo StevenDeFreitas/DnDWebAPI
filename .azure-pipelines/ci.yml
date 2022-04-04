@@ -9,7 +9,7 @@ trigger:
 pool: Default
 
 variables:
-  solution: '**/*.sln'
+  solution: 'DnDWebapp2/DnDWebapp2.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
