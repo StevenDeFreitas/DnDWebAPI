@@ -14,4 +14,4 @@ stages:
           scriptType: 'ps'
           scriptLocation: 'inlineScript'
           inlineScript: |
-              az deployment sub create --location "centralus" --name "DnDdev"
+              az deployment sub create --location "centralus" --name "DnDdev" --template-file './main.bicep'
