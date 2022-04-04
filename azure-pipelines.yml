@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  agent: 'Un1C0RN'
+pool: Default
 
 variables:
   solution: '**/*.sln'
