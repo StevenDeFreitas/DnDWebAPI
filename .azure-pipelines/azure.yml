@@ -1,3 +1,9 @@
+trigger:
+  paths:
+    include:
+    - Azure
+trigger: none
+
 stages:
 - stage: azureDeploy
   displayName: deploy to Azure infrastructure
