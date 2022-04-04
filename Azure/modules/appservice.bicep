@@ -10,6 +10,7 @@ resource appServicePlan 'Microsoft.Web/serverfarms@2021-03-01' = {
   sku:{
     name:'F1'
   }
+  kind: 'linux'
 }
 
 resource appService 'Microsoft.Web/sites@2021-03-01' = {
@@ -17,5 +18,13 @@ resource appService 'Microsoft.Web/sites@2021-03-01' = {
   location: resourceGroup().location
   properties:{
     serverFarmId: appServicePlan.id
+    siteConfig: {
+      linuxFxVersion: 'DOTNETCORE|6.0'
+      cors:{
+        allowedOrigins: [
+          '*'
+        ]
+      }
+    }
   }
 }
