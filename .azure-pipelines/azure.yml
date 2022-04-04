@@ -1,0 +1,17 @@
+stages:
+- stage: azureDeploy
+  displayName: deploy to Azure infrastructure
+  jobs:
+    - job: biceptemplatedeployment
+      displayName: deploying
+      pool: Default
+      steps: 
+
+      - task: AzureCLI@2
+        name: deploy
+        inputs: 
+          azureSubscription: '$(serviceConnectionName)'
+          scriptType: 'bash'
+          scriptLocation: 'inlineScript'
+          inlineScript: |
+              az deployment sub create --location "centralus" --name "DnDdev"
